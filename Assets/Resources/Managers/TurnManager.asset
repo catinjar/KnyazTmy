@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7e7fe4204b05445ad07fb2b5cbdf75, type: 3}
+  m_Name: TurnManager
+  m_EditorClassIdentifier: 
+  easyMode: 0
+  startMessagePrefab: {fileID: 1212422670107964, guid: 319c3bbbe43bcf04a99e51d2137bf859,
+    type: 2}
+  refugeeMessagePrefab: {fileID: 1131294779200456, guid: bcf622fbef969db49b26c71277e80af6,
+    type: 2}
+  sicknessMessagePrefab: {fileID: 1531832584589006, guid: 8a8ea60bfe6e07e4c986cfca379f9563,
+    type: 2}
+  raidersMessagePrefab: {fileID: 1096610393449938, guid: 20526fdfbc016ff4dbbe88a504d96e7e,
+    type: 2}
+  description: 
+  descriptionBuildingWindow: 

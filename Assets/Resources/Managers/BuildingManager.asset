@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfaf6c4bddf8b9740a557b5e36d5e625, type: 3}
+  m_Name: BuildingManager
+  m_EditorClassIdentifier: 
+  clearAvailableCells: {fileID: 11400000, guid: 468fa747a23ba5242924eb788959405e,
+    type: 2}
+  addAvailableCells: {fileID: 11400000, guid: f18fb3fd17da7e749aac18b5cf26e52e, type: 2}
+  prefabNone: {fileID: 1922605661556580, guid: e527aed4980af23499dade2480288962, type: 2}
+  prefabForest: {fileID: 1445751746546950, guid: aa438856fbcd19d44a3331abf3c34f74,
+    type: 2}
+  prefabCastle: {fileID: 1252971510089156, guid: 84dbb44a535077946b11e27cadc04026,
+    type: 2}
+  prefabHouse: {fileID: 1750866408410368, guid: d7d5789b7960b5a49a6eb66ab326cc3e,
+    type: 2}
+  prefabFarm: {fileID: 1284976123850452, guid: 2f363668fc1f92044bec6b8bb2762a55, type: 2}
+  prefabWorkshop: {fileID: 1929730814953638, guid: 9c44b53403607bb45b3ead7c336b64af,
+    type: 2}
+  prefabBarrack: {fileID: 1683282406850306, guid: 72bc68ef69a38e84e934ce29902c62e2,
+    type: 2}
+  prefabSawmill: {fileID: 1596162044336300, guid: 720ac4e7580a0ef41a2eeaa1a4020afa,
+    type: 2}
+  prefabHospital: {fileID: 1567806406724774, guid: 85dfa1a8a1a284947b1ffb6f231b42b9,
+    type: 2}
+  prefabChurch: {fileID: 1523744297994512, guid: 4aec40bbad4d7d44fb723cb49ad2a3fc,
+    type: 2}
+  prefabMemorial: {fileID: 1262726870178406, guid: 5fb9812369ea91b4dba5b4a778f22b44,
+    type: 2}
+  prefabRefugeeCamp: {fileID: 1907225034184222, guid: 3fcf8cefe67ca7a428a3cb4e67531e00,
+    type: 2}
+  prefabRaiderCamp: {fileID: 1899533719536636, guid: 88c211579447bde42b67500b7d838f97,
+    type: 2}
+  sounds:
+  - {fileID: 8300000, guid: 02ab4f0e5a7f90543a87c6b6a94fd380, type: 3}
+  - {fileID: 8300000, guid: a74093739c08bf44092024ffa751f64f, type: 3}
+  buildingWindowPrefab: {fileID: 1490919811973526, guid: 73ef61603811aee4db2fc867f40e54b4,
+    type: 2}
+  farmWindowPrefab: {fileID: 1561557166159282, guid: 4ebc1584b01ce1c42a37197075f3bddf,
+    type: 2}
+  workshopWindowPrefab: {fileID: 1888703755163082, guid: 39e8db942b053654cb49384919b00d3e,
+    type: 2}
+  forestWindowPrefab: {fileID: 1160020063641924, guid: 2c1023edb93f4ae448d56ed37bcb2999,
+    type: 2}
+  houseWindowPrefab: {fileID: 1894234384019306, guid: 66ea992ffe3ea224fa6be0669b67e74a,
+    type: 2}
+  barrackWindowPrefab: {fileID: 1579644156036176, guid: 513415134df19ab4194c0f875c8b8af5,
+    type: 2}
+  refugeeWindowPrefab: {fileID: 1789930320824498, guid: 4e5291eabad91f64587e2cf5466843b0,
+    type: 2}
+  raiderWindowPrefab: {fileID: 1306430044767088, guid: 4b4a7bf7b7577dd49bf62a2c1f9de786,
+    type: 2}
+  churchWindowPrefab: {fileID: 1147333396152258, guid: 2ec2c2fd878a19f4d9f109090bdebb96,
+    type: 2}
+  sawmillWindowPrefab: {fileID: 1670202642166968, guid: a7115643711d2364fbe797087c78afcd,
+    type: 2}
+  hospitalWindowPrefab: {fileID: 1777181040109530, guid: 55616766b7a2c204296cd85511a5863c,
+    type: 2}
+  farmSprite: {fileID: 21300000, guid: b137d266c4dbdbb4cac8dcfb04d0252a, type: 3}
+  workshopSprite: {fileID: 21300000, guid: 62842bfb5050b354f980ab1ef0a47587, type: 3}
+  forestSprite: {fileID: 21300000, guid: 23f00971f4af441448ae33fef9fd8e4d, type: 3}
+  houseSprite: {fileID: 21300000, guid: e5c936a10089fa1489aef0c98cf3d168, type: 3}
+  castleSprite: {fileID: 21300000, guid: d7cb52883ec15394b88650701da5dcc1, type: 3}
+  barrackSprite: {fileID: 21300000, guid: fdf0d045de4ec2c4483fc5cb3a73d08f, type: 3}
+  refugeeSprite: {fileID: 21300000, guid: 95330402a81829e4c9d813aa5f180fa8, type: 3}
+  raiderSprite: {fileID: 21300000, guid: 06bfa051c93232f40931d2323c508229, type: 3}
+  churchSprite: {fileID: 21300000, guid: ed46f4816fcceb442b0f41449dd249e6, type: 3}
+  sawmillSprite: {fileID: 21300000, guid: cec960baaf928174899832eba5c109f5, type: 3}
+  hospitalSprite: {fileID: 21300000, guid: d915ab45e9d21384ebfcf95c8348da92, type: 3}
+  memorialSprite: {fileID: 21300000, guid: db1271bf2acdc4843bf8fd89c17c962e, type: 3}
+  startMessagePrefab: {fileID: 1212422670107964, guid: 319c3bbbe43bcf04a99e51d2137bf859,
+    type: 2}
+  refugeeMessagePrefab: {fileID: 1131294779200456, guid: bcf622fbef969db49b26c71277e80af6,
+    type: 2}
+  sicknessMessagePrefab: {fileID: 1531832584589006, guid: 8a8ea60bfe6e07e4c986cfca379f9563,
+    type: 2}
+  raidersMessagePrefab: {fileID: 1096610393449938, guid: 20526fdfbc016ff4dbbe88a504d96e7e,
+    type: 2}
+  description: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u043A\u043B\u0435\u0442\u043A\u0443
+    \u0440\u044F\u0434\u043E\u043C \u0441 \u043E\u0434\u043D\u0438\u043C \u0438\u0437
+    \u0432\u0430\u0448\u0438\u0445 \u0437\u0434\u0430\u043D\u0438\u0439, \u0447\u0442\u043E\u0431\u044B
+    \u043F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0442\u0430\u043C \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C"
+  descriptionBuildingWindow: "\u0421\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E
+    \u0437\u0430\u0439\u043C\u0435\u0442 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0435
+    \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0445\u043E\u0434\u043E\u0432
+    \u0438 \u0431\u0443\u0434\u0435\u0442 \u0441\u0442\u043E\u0438\u0442\u044C \u043E\u0434\u043D\u043E
+    \u043E\u0447\u043A\u043E \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0441\u0438\u043B\u044B"
